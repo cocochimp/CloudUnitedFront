@@ -1,0 +1,10 @@
+# º”√‹ encrypted
+canal-clientedu/** filter=git-crypt diff=git-crypt
+common/** filter=git-crypt diff=git-crypt
+infrastructure/** filter=git-crypt diff=git-crypt
+service/** filter=git-crypt diff=git-crypt
+sql/** filter=git-crypt diff=git-crypt
+
+# ±‹√‚º”√‹ not encrypted
+.gitignore !filter !diff
+.gitattributes !filter !diff
