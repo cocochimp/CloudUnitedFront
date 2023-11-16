@@ -1,3 +1,19 @@
+# CloudUnitedFront
+
+🎉基于SpringCloud，SpringCloud Alibaba，JWT框架开发的广东海洋大学大数据云统战平台-后端
+
+前端项目地址：
+
+github：https://github.com/cocochimp/CloudUnitedFront-UI
+
+gitee：https://gitee.com/cocochimp/CloudUnitedFront-UI
+
+后端项目地址：
+
+github：https://github.com/cocochimp/CloudUnitedFront
+
+gitee：https://gitee.com/cocochimp/CloudUnitedFront
+
 # Java技术核心依赖
 
 | 依赖                 | 版本                    |
