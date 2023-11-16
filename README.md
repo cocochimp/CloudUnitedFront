@@ -2,6 +2,8 @@
 
 🎉基于SpringCloud，SpringCloud Alibaba，JWT框架开发的广东海洋大学大数据云统战平台-后端
 
+视频讲解地址：https://1310853283.vod-qcloud.com/82e5d1e4vodcq1310853283/eaae53f83270835011817245109/Vtrg2d9EpcYA.mp4
+
 前端项目地址：
 
 github：https://github.com/cocochimp/CloudUnitedFront-UI
