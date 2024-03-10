@@ -1,0 +1,10 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url('../Bg.gif');
+    background-size: cover;
+    background-position: 0 -50px;
+}

@@ -1,0 +1,176 @@
+/* 全局样式表 */
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+
+/* 让aside撑满整个页面 */
+
+:root {
+    height: 100%;
+}
+
+body {
+    height: 100%;
+}
+
+#app {
+    height: 100%;
+}
+
+
+/* 让aside撑满整个页面 */
+
+body,
+button,
+input,
+select,
+textarea {
+    font: 14px px / 1 arial, \5b8b\4f53;
+    color: #333;
+    outline: 0;
+}
+
+address,
+cite,
+dfn,
+em,
+var {
+    font-style: normal;
+}
+
+code,
+kbd,
+pre,
+samp {
+    font-family: couriernew, courier, monospace;
+}
+
+small {
+    font-size: 12px;
+}
+
+ul,
+li,
+ol {
+    list-style: none;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+    transition: all 0.4s ease-in-out;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+a,
+button {
+    cursor: pointer;
+}
+
+sup {
+    vertical-align: text-top;
+}
+
+sub {
+    vertical-align: text-bottom;
+}
+
+legend {
+    color: #000;
+}
+
+img {
+    border: 0;
+    vertical-align: middle;
+}
+
+button,
+input,
+select,
+textarea {
+    font-size: 100%;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+tbody {
+    display: table-row-group;
+    vertical-align: middle;
+    border-color: inherit;
+}
+
+tr {
+    display: table-row;
+    vertical-align: inherit;
+    border-color: inherit;
+}
+
+.fl {
+    float: left;
+}
+
+.fr {
+    float: right;
+}
+
+body {
+    color: #555555;
+    font-size: 16px;
+    /* overflow-x: hidden; */
+    background-color: #f2f2f2;
+    line-height: 1;
+    font-family: 'Microsoft YaHei', '\u5b8b\u4f53', Tahoma, Geneva, sans-serif;
+}
+
+#container {
+    position: absolute;
+    margin: auto;
+    width: 100%;
+    height: 100%;
+    min-width: 1377px;
+    min-height: 500px;
+    background-size: 100% 100%;
+    background-color: #8b2a2a;
+
+    overflow: hidden;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 100%;
+    min-width: 1377px;
+    height: 100%;
+    background-size: 100% 100%;
+}
+
+h5 {
+    position: absolute;
+    color: #f7d7b6;
+    font-size: 1.5vw;
+    top: 1.5vh;
+}
+
+.clearfix {
+    display: block;
+    *zoom: 1;
+}
+
+.box {
+    position: relative;
+}
+
+.el-breadcrumb {
+    margin-bottom: 15px;
+}

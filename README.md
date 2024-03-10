@@ -1,22 +1,64 @@
-# CloudUnitedFront
+# GDOU大数据云统战
 
-🎉基于SpringCloud，SpringCloud Alibaba，JWT框架开发的广东海洋大学大数据云统战平台-后端
+🎉基于SpringCloud，SpringCloud Alibaba，JWT，Vue&Element框架开发的GDOU大数据云统战平台
+
+github地址：https://github.com/cocochimp/CloudUnitedFront
+
+开发背景：为了使学校的党委老师和学校的职能部门能对学校党委人员进行的统一调配和管理，因此开发了这个大数据可视化平台；
 
 视频讲解地址：https://1310853283.vod-qcloud.com/82e5d1e4vodcq1310853283/eaae53f83270835011817245109/Vtrg2d9EpcYA.mp4
 
-前端项目地址：
 
-github：https://github.com/cocochimp/CloudUnitedFront-UI
 
-gitee：https://gitee.com/cocochimp/CloudUnitedFront-UI
+# 启动命令
 
-后端项目地址：
+> 运行方式
 
-github：https://github.com/cocochimp/CloudUnitedFront
+1. 后端项目：
 
-gitee：https://gitee.com/cocochimp/CloudUnitedFront
+* redis：启动redis-server.exe
+* nacos：启动nacos文件夹下的bin下的startup.cmd
 
-# Java技术核心依赖
+2. 前端项目：
+
+* 创建：npm install
+* 启动：npm run serve
+* 打包：npm run build
+
+
+
+> 运行环境
+
+- java:8（jdk1.8）
+- mysql:5.6.35
+- redis:3.0
+- nacos:1.1.3
+- maven:3.7.4
+
+
+
+# 项目结构
+
+>  分布式项目结构
+
+![img](https://cdn.nlark.com/yuque/0/2024/png/35382725/1709974834196-b7d51425-07b9-459e-b330-29957132a870.png)
+
+| 端口 | 解释         |
+| ---- | ------------ |
+| 8222 | 网关服务     |
+| 8223 | 系统用户服务 |
+| 9102 | 文章服务     |
+| 9103 | 轮播图服务   |
+| 9104 | 文件服务     |
+| 9106 | 人物库服务   |
+| 9107 | 决策中心服务 |
+| 9108 | 奖项服务     |
+| 9109 | 组织服务     |
+| 9110 | 宣传信息服务 |
+
+
+
+>  Java技术核心依赖
 
 | 依赖                 | 版本                    |
 | -------------------- | ----------------------- |
@@ -35,9 +77,11 @@ gitee：https://gitee.com/cocochimp/CloudUnitedFront
 
 
 
-# 【门户网站】
+# 📚页面展示📚
 
-## 主页
+## 【门户网站】
+
+> 主页
 
 * 地址：http://localhost:8080/#/index
 
@@ -45,7 +89,7 @@ gitee：https://gitee.com/cocochimp/CloudUnitedFront
 
 
 
-## 主页功能模块
+> 主页功能模块
 
 ![image](https://cocochimp-img.oss-cn-beijing.aliyuncs.com/23-03/20231115215837.png)
 
@@ -58,7 +102,7 @@ gitee：https://gitee.com/cocochimp/CloudUnitedFront
 
 
 
-## 统战信息系统
+> 统战信息系统
 
 * 点击此处进入“功能页面”
 
@@ -83,18 +127,16 @@ gitee：https://gitee.com/cocochimp/CloudUnitedFront
 
 
 
-# 【功能模块】
+## 【功能模块】
 
 ![image-20230903211321069](https://cocochimp-img.oss-cn-beijing.aliyuncs.com/23-03/20230903211321.png)
 
-## 人物库
+> 人物库
 
 * 地址：http://localhost:8080/#/welcome
 * 功能：管理统战人物信息
 
 ![image](https://cocochimp-img.oss-cn-beijing.aliyuncs.com/23-03/20231115220049.png)
-
-> 功能介绍：
 
 **该模块分为：**
 
@@ -103,14 +145,12 @@ gitee：https://gitee.com/cocochimp/CloudUnitedFront
 
 
 
-## 组织库
+> 组织库
 
 * 地址：http://localhost:8080/#/organization/organizationWelcome
 * 功能：管理统战组织信息
 
 ![image-20230903211707351](https://cocochimp-img.oss-cn-beijing.aliyuncs.com/23-03/20230903211707.png)
-
-> 功能介绍：
 
 **该模块分为：**
 
@@ -124,14 +164,12 @@ gitee：https://gitee.com/cocochimp/CloudUnitedFront
 
 
 
-## 资料库
+> 资料库
 
 * 地址：http://localhost:8080/#/reward
 * 功能：管理门户网站和决策中心资料展示信息
 
 ![image-20230903212330892](https://cocochimp-img.oss-cn-beijing.aliyuncs.com/23-03/20230903212330.png)
-
-> 功能介绍：
 
 **该模块分为：**
 
@@ -144,14 +182,12 @@ gitee：https://gitee.com/cocochimp/CloudUnitedFront
 
 
 
-## 业务工作平台
+> 业务工作平台
 
 * 地址：http://localhost:8080/#/welcomeWorkplace
 * 功能：管理平台权限信息
 
 ![image](https://cocochimp-img.oss-cn-beijing.aliyuncs.com/23-03/20231115220118.png)
-
-> 功能介绍：
 
 **该模块分为：**
 
@@ -161,11 +197,11 @@ gitee：https://gitee.com/cocochimp/CloudUnitedFront
 
 
 
-# 【领导决策中心】
+## 【领导决策中心】
 
 该模块是以大数据的形式展示各种统战数据
 
-## 首页
+> 首页
 
 * 地址：http://localhost:8080/#/metadata/dataIndex
 
@@ -179,7 +215,7 @@ gitee：https://gitee.com/cocochimp/CloudUnitedFront
 
 
 
-## 民主党派
+> 民主党派
 
 * 地址：http://localhost:8080/#/metadata/democrat
 
@@ -193,7 +229,7 @@ gitee：https://gitee.com/cocochimp/CloudUnitedFront
 
 
 
-## 无党派、党外人士
+> 无党派、党外人士
 
 * 地址：http://localhost:8080/#/metadata/frontParty
 
@@ -206,7 +242,7 @@ gitee：https://gitee.com/cocochimp/CloudUnitedFront
 
 
 
-## 少数民族
+> 少数民族
 
 * 地址：http://localhost:8080/#/metadata/minNationality
 
@@ -219,7 +255,7 @@ gitee：https://gitee.com/cocochimp/CloudUnitedFront
 
 
 
-## 统战成果展示
+> 统战成果展示
 
 * 地址：http://localhost:8080/#/metadata/gain
 
@@ -231,7 +267,7 @@ gitee：https://gitee.com/cocochimp/CloudUnitedFront
 
 
 
-## 人物画像
+> 人物画像
 
 * 地址：http://localhost:8080/#/metadata/portrait
 
