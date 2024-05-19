@@ -1,12 +1,16 @@
-# GDOU大数据云统战
+# 大数据云统战（毕设、课设）
 
-🎉基于SpringCloud，SpringCloud Alibaba，JWT，Vue&Element框架开发的GDOU大数据云统战平台
+🎉基于SpringCloud，SpringCloud Alibaba，JWT，Vue&Element框架开发的大数据云统战平台
 
 github地址：https://github.com/cocochimp/CloudUnitedFront
 
-开发背景：为了使学校的党委老师和学校的职能部门能对学校党委人员进行的统一调配和管理，因此开发了这个大数据可视化平台；
+⚠⚠
 
-视频讲解地址：https://1310853283.vod-qcloud.com/82e5d1e4vodcq1310853283/eaae53f83270835011817245109/Vtrg2d9EpcYA.mp4
+近期发现有很多无良商家没有征得我的同意，私自盗取我的开源项目作为毕设、课设以及论文去高价卖！！！因此将数据库闭源！
+
+如果有需要可以留言我并说明用意，如果有毕设项目、毕业论文、课设的用途，请私聊我
+
+![](https://cocochimp-img.oss-cn-beijing.aliyuncs.com/img/13.png)
 
 
 
